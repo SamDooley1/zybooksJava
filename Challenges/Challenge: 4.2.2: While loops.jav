@@ -1,4 +1,4 @@
-Level 3
+/* Level 3
 Write a while loop that reads integers from input and calculates integer finalVal as follows:
 
 If the input is not divisible by 4, add the input to finalVal.
@@ -9,7 +9,7 @@ Ex: If the input is 8 5 12 -1, then the output is:
 
 Final value is -15
 
-Note: x % 4 == 0 returns true if x is divisible by 4.
+Note: x % 4 == 0 returns true if x is divisible by 4. */
 
       while (numInput >= 0) {
          if (numInput % 4 != 0) {
