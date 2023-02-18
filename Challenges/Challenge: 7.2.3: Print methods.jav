@@ -9,9 +9,9 @@ EWR is Newark's airport code. */
 import java.util.Scanner;
 
 public class AirportDetails {
-   public static void printAirportDetails(String airportCode, String airportName) {
+   public static void printAirportDetails(String airportCode, String airportName) {		//Assignment code starts here
       System.out.println(airportCode + " is " + airportName + "'s airport code.");
-   }
+   }												//Assignment code ends here
 
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
@@ -38,12 +38,12 @@ I want to travel to:
 import java.util.Scanner;
 
 public class TravelList {
-   public static void printTravelList(String country1, String country2, String country3) {
+   public static void printTravelList(String country1, String country2, String country3) {	//Assignment code starts here
       System.out.println("I want to travel to:");
       System.out.println("1: " + country1);
       System.out.println("2: " + country2);
       System.out.println("3: " + country3);
-   }
+   }												//Assignment code ends here
 
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
@@ -111,14 +111,14 @@ public class City {
 	}
 
 	public static void main (String [] args) {
-      Scanner scnr = new Scanner(System.in);
+      Scanner scnr = new Scanner(System.in);		//Assignment code starts here
       String city1 = scnr.next();
       String city2 = scnr.next();
       String uni1 = scnr.next();
       String uni2 = scnr.next();
       
       printCity(city1, uni1);
-      printCity(city2, uni2);
+      printCity(city2, uni2);				//Assignment code ends here
 
 	}
 }
