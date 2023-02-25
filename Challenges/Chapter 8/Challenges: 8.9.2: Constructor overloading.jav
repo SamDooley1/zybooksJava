@@ -7,10 +7,10 @@ public class PhonePlan {
    private int freeMinutes;
    private int freeMessages;
 
-   public PhonePlan() {
+   public PhonePlan() {              //Assignment code starts here
        freeMinutes  = 0;
        freeMessages = 0;
-    }
+    }                               //Assignment code ends here
 
     // FIXME: Create a second constructor with numMinutes and numMessages parameters.
 
