@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class BinarySearch {
    public static int binarySearch(int [] numbers, int key) {
       int mid;
